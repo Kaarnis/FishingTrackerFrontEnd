@@ -6,7 +6,7 @@ const MainPage = () => {
   return (
     <div className="main-page" style={{ backgroundImage: `url(${backgroundImage})` }}>
       <div className="content">
-        <h1 className="title">Kalastuspäiväkirja</h1>
+        <h1 className="title">Kalastuspäiväkirja!</h1>
         <p className="description">Paikka jossa voit seurata unelmiasi</p>
       </div>
       <div className="login-container">
