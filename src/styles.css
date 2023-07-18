@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+}
+
+.main-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.content {
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+.title {
+  font-family: Agdasima;
+  font-size: 3rem;
+  margin-bottom: -1rem;
+}
+
+.description {
+  font-family: Ysabeau SC, cursive;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+           
+
+.login-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20vh;
+  border-radius: 20px; 
+  background-color: rgba(0, 0, 0, 0.6); /* Add a semi-transparent black background */
+  padding: 10px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 20px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a box shadow for depth */
+}
+
+.login-input {
+  width: 300px; /* Increase the width as desired */
+  padding: 10px;
+  margin-bottom: 19px;
+  border: none;
+  color:white ;
+  border-bottom: 3px solid #ccc;
+  background-color: transparent; /* Remove the white background */
+}
+
+.login-input::placeholder {
+  color: #888; /* Adjust the color to make it more clear */
+}
+.login-button,
+.register-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: grey; /* Update the button background color */
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  text-decoration: none;
+   /* Add spacing between the buttons */
+}
+
+.login-button:hover,
+.register-button:hover {
+  background-color: black; /* Update the button background color on hover */
+}
+
+.login-form p {
+  color: whitesmoke; /* Adjust the color to make it more clear */
+  font-size: 14px; /* Increase the font size if necessary */
+  margin-bottom: 10px; /* Add some spacing below the "tai" text */
+}
+
+
